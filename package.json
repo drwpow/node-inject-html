@@ -1,0 +1,48 @@
+{
+  "name": "node-inject-html",
+  "version": "0.0.1",
+  "description": "Inject any HTML into <head> or <body>",
+  "author": "drew@pow.rs",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "dist/cjs/index.js",
+  "module": "dist/index.js",
+  "exports": {
+    "import": "dist/index.js",
+    "require": "dist/cjs/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drwpow/html-import-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drwpow/html-import-scanner/issues"
+  },
+  "keywords": [
+    "ssr",
+    "html",
+    "inject",
+    "injection",
+    "parser",
+    "lexer",
+    "dom",
+    "jsdom"
+  ],
+  "scripts": {
+    "build": "tsc && tsc -m 'commonjs' --outDir 'dist/cjs'",
+    "prepare": "npm run build",
+    "test": "npm run build && jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "moo": "^0.5.1"
+  },
+  "devDependencies": {
+    "@types/moo": "^0.5.3",
+    "jest": "^26.6.1",
+    "typescript": "^4.0.3"
+  }
+}
