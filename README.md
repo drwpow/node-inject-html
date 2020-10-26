@@ -66,13 +66,23 @@ better than a heavy DOM parser / AST library.
 
 #### Can I insert any HTML?
 
-Yes. Any HTML (but note that malformed HTML will break your app—this won’t
+Yes! Any HTML (but note that malformed HTML will break your app—this won’t
 validate it!)
 
-#### Can I use this is a browser?
+#### I need an AST. Can this do that?
+
+No. Try [node-html-parser][node-html-parser] or something.
+
+#### Can I add other hooks?
+
+Yes! Contributions are welcome. Please see [CONTRIBUTING.md](./CONTRIBUTING.md)
+to get started.
+
+#### Can I use this in a browser?
 
 **No!**️ If you are running this in the context of a browser, you should use
 [`appendChild()`][appendchild] instead.
 
 [appendchild]: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
+[node-html-parser]: https://github.com/taoqf/node-html-parser
 [moo]: https://github.com/no-context/moo
