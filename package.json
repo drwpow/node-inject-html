@@ -1,6 +1,6 @@
 {
   "name": "node-inject-html",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Inject any HTML into <head> or <body>",
   "author": "drew@pow.rs",
   "license": "MIT",
