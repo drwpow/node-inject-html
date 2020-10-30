@@ -28,7 +28,7 @@ function findHeadAndBody(html: string) {
     },
     comment: {
       commentEnd: { match: /-->/, lineBreaks: true, pop: 1 }, // exit comment
-      commentAny: { match: /./, lineBreaks: true },
+      commentAny: { match: /[^]/, lineBreaks: true },
     },
   });
   return lexer.reset(html);

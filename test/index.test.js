@@ -11,6 +11,13 @@ describe('', () => {
   </head>
   <BODY>
     <!-- </body> -->
+    <!--
+
+    multi
+    line
+    comment
+
+    -->
     <div id="app"></div>
   </BODY>
 </html>`,
@@ -34,6 +41,13 @@ describe('', () => {
   <BODY>
     <noscript>You need JavaScript enabled to run this application.</noscript>
     <!-- </body> -->
+    <!--
+
+    multi
+    line
+    comment
+
+    -->
     <div id="app"></div>
     <script async src="./hmr.js"></script>
   </BODY>
