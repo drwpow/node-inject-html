@@ -8,6 +8,9 @@ the DOM (e.g. Node.js).
 
 This library only has 1 dependency: [moo][moo], a highly-optimized JS lexer.
 
+If you are searching for a tool to perform this change in bulk, check out the
+[CLI version][cli].
+
 ## Example
 
 ```
@@ -86,3 +89,4 @@ to get started.
 [appendchild]: https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild
 [node-html-parser]: https://github.com/taoqf/node-html-parser
 [moo]: https://github.com/no-context/moo
+[cli]: https://www.npmjs.com/package/node-inject-html-cli
